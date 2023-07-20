@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <h1>Contact Page</h1>
+    <fieldset>
+      <legend>Some Message</legend>
+      <form action="mailto:shrawan.chakradhar1997@gmail.com" method="post" enctype="text/plain">
+        <p>
+          <label for="name">Your Name</label>
+          <input type="text" name="username" id="name" placeholder="Your Name">
+        </p>
+        <p>
+          <label for="email">Your Email</label>
+          <input type="email" name="Email" id="email" placeholder="Your Email">
+        </p>
+        <p>
+        <h4>Select Your Gender</h4>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">FeMale</label>
+        </p>
+        <p>
+        <h4>Select Your Hobbies</h4>
+        <input type="checkbox" name="hobby" id="dance" value="dance">
+        <label for="dance">Dance</label>
+        <input type="checkbox" name="hobby" id="music" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" name="hobby" id="coding" value="coding">
+        <label for="coding">Coding</label>
+        </p>
+
+        <label for="message">
+          <h3>Send a Message</h3>
+        </label>
+        <textarea name="message" id="message" cols="50" rows="20"></textarea>
+        <br> <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+
+    </fieldset>
+  </body>
+
+</html>
